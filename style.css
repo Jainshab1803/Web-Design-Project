@@ -6,7 +6,7 @@
 }
 body {
   text-align: center;
-  background-color:#F8F8F8;
+  background-color: #f8f8f8;
 }
 .header {
   max-width: 1300px;
@@ -118,7 +118,7 @@ main {
   margin-bottom: 35px;
 }
 section {
-  background-color:#F8F8F8; 
+  background-color: #f8f8f8;
 }
 .card-container {
   max-width: 800px;
@@ -141,9 +141,9 @@ section {
   gap: 10px;
   border-radius: 15px;
 }
-.card1{
-    margin-top: 10px;
-  background-color: #FF6289;
+.card1 {
+  margin-top: 10px;
+  background-color: #ff6289;
   height: 200px;
   width: 350px;
   border: solid black 2px;
@@ -153,81 +153,74 @@ section {
   align-items: center;
   gap: 10px;
   border-radius: 15px;
-
-    
 }
-.card2{
-    margin-top: 10px;
-    background-color: #7D78B1;
-    height: 200px;
-    width: 350px;
-    border: solid black 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-  
+.card2 {
+  margin-top: 10px;
+  background-color: #7d78b1;
+  height: 200px;
+  width: 350px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
 }
-.card3{
-    margin-top: 10px;
-    background-color: #FCBF58;
-    height: 200px;
-    width: 350px;
-    border: solid black 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-  
+.card3 {
+  margin-top: 10px;
+  background-color: #fcbf58;
+  height: 200px;
+  width: 350px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
 }
 
-.card4{
-    margin-top: 10px;
-    background-color: #44BFC3;
-    height: 200px;
-    width: 350px;
-    border: solid black 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-  
+.card4 {
+  margin-top: 10px;
+  background-color: #44bfc3;
+  height: 200px;
+  width: 350px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
 }
 
-.card5{
-    margin-top: 10px;
-    background-color: #4A90E2;
-    height: 200px;
-    width: 350px;
-    border: solid black 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-  
+.card5 {
+  margin-top: 10px;
+  background-color: #4a90e2;
+  height: 200px;
+  width: 350px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
 }
 
-.card6{
-    margin-top: 10px;
-    background-color: #34A853;
-    height: 200px;
-    width: 350px;
-    border: solid black 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-  
+.card6 {
+  margin-top: 10px;
+  background-color: #34a853;
+  height: 200px;
+  width: 350px;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
 }
 
 .card h3 {
@@ -249,48 +242,42 @@ section {
 }
 .paraforcard p {
   font-size: 18px;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   font-weight: 600;
 }
-.courses
-{
+.courses {
   margin: 50px auto 0px auto;
   max-width: 1000px;
   /* background-color: #c1e7c2; */
- 
-
 }
-.courses h2{
+.courses h2 {
   font-size: 48px;
   font-weight: bold;
-  
 }
-.course-continer{
+.course-continer {
   margin-top: 25px;
   height: 400px;
   width: 350px;
-
 }
-.full-course{
+.full-course {
   max-width: 1000px;
-  margin: 0 auto ;
- display: flex;
- justify-content:space-around;
- align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.card-desc h3{
+.card-desc h3 {
   padding-left: 20px;
   font-size: 24px;
   font-weight: 700;
-
 }
-.card-desc p{
+.card-desc p {
   margin-top: 10px;
   font-size: 22px;
   font-weight: 600;
   color: #4a4747;
 }
-.bottom{
+.bottom {
   height: 45px;
   width: 100%;
   /* background-color: #b6a3a3c5; */
@@ -299,92 +286,87 @@ section {
   align-items: center;
   justify-content: center;
 }
-.bottom a{
+.bottom a {
   font-size: 18px;
   font-weight: 600;
   color: rgb(136, 128, 128);
 }
-.test-section{
-margin-top: 0;
-  background-color: #F8F8FD;
-
+.test-section {
+  margin-top: 0;
+  background-color: #f8f8fd;
 }
-.test-section h3{
+.test-section h3 {
   font-size: 32px;
   font-weight: 600;
 }
-.test-container{
+.test-container {
   padding-top: 70px;
-  max-width: 1200PX;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  
 }
-.test-reviews{
+.test-reviews {
   height: 380px;
   width: 320px;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   border-radius: 20px;
-  margin: 12PX;
+  margin: 12px;
 }
-.student-image{
+.student-image {
   padding-top: 20px;
 }
 
-.student-image img{
-  
+.student-image img {
   height: 135px;
-
 }
-.student-heading{
+.student-heading {
   padding-top: 25px;
-
 }
-.student-heading p{
+.student-heading p {
   font-size: 21px;
   font-weight: 700;
 }
 .student-name :nth-child(1) {
-  color:#383232;
+  color: #383232;
   font-size: 20px;
   font-weight: 500;
 }
 .student-name :nth-child(2) {
-  color:#2b2b2b;
+  color: #2b2b2b;
   font-size: 17px;
   font-weight: 400;
-  text-align: center ;
+  text-align: center;
 }
-.about-section{
-  max-width:1000px ;
+.about-section {
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.help-section{
-text-align: left;
+.help-section {
+  text-align: left;
 }
-.help-section ul li a{
+.help-section ul li a {
   font-size: 22px;
   font-weight: 400;
 }
 
-.email-section{
+.email-section {
   text-align: left;
 }
-.email-section ul li a{
+.email-section ul li a {
   font-size: 22px;
   font-weight: 400;
 }
-.copyright{
+.copyright {
   margin-top: 20px;
   margin-bottom: 80px;
 }
-.copyright p{
+.copyright p {
   font-size: 20px;
   font-weight: 500;
 }
