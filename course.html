@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            text-decoration: none;
         }
 
         .courses {
@@ -62,10 +63,88 @@
             font-weight: 600;
             color: rgb(102, 101, 101);
         }
+        
+        .header {
+            max-width: 1300px;
+            /* border: solid black 2px; */
+            margin: 40px auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+            font-size: 20px;
+        }
+
+        nav a {
+            color: black;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        .spacing {
+            margin-top: 105px;
+        }
+
+        .account {
+            text-align: center;
+            margin-top: 8px;
+
+        }
+
+        .account a {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        footer {
+            margin-top: 10px;
+            margin-bottom: 80px;
+        }
+
+        footer a {
+            font-size: 32px;
+            font-weight: 600;
+            color: black;
+        }
     </style>
 </head>
 
 <body>
+    <div class="header">
+        <header>
+            <!-- <div class="logo">
+                <a href="#home"><img src="download.png" alt=""></a>
+                <span><a href="#home">Alpha</a></span>
+            </div> -->
+            <nav>
+                <a href="#Home"> Home</a>
+                <!-- <a target="_blank" href="course.html">Courses</a> -->
+                <a href="Contact.html" target="_blank">ContactUs </a>
+                <a target="_blank" href="about.html">About </a>
+                <a target="_blank" href="sign.html">Sign up</a>
+                <a target="_blank" href="login.html">Log In</a>
+            </nav>
+        </header>
+        <div class="spacing">
+
+        </div>
+    </div>
+
+
+
+
+
     <section class="courses ">
 
         <h2 id="#OURCOURSES">
@@ -93,6 +172,9 @@
         </div>
     </section>
     <p> + many more coming</p>
+    <footer style="text-align: center;">
+        <a href="index.html"> Back to Home</a>
+    </footer>
 </body>
 
 </html>

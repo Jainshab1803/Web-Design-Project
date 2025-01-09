@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    text-decoration: none;
     /* background-color: #F8F8FD; */
 }
 body{
@@ -72,7 +73,7 @@ margin-top: 20px;
   text-align: center ;
 }
 .about{
-    margin-top: 25px;
+    margin-top: 2px;
 }
 .about-us{
     margin-top: 15px;
@@ -81,13 +82,84 @@ margin-top: 20px;
 .about-us h2{
     font-size: 18px;
     color: #383232;
-
-
 }
+.header {
+            max-width: 1300px;
+            /* border: solid black 2px; */
+            margin: 40px auto 0px auto;
+        }
+
+header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav {
+            margin-top: 40px;
+            display: flex;
+            gap: 15px;
+            font-size: 20px;
+        }
+
+        nav a {
+            color: rgb(28, 10, 229);
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        .spacing {
+            margin-top: 105px;
+        }
+
+        .account {
+            text-align: center;
+            margin-top: 8px;
+
+        }
+
+        .account a {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        footer {
+            margin-top: 10px;
+            margin-bottom: 80px;
+        }
+
+        footer a {
+            font-size: 32px;
+            font-weight: 600;
+            color: black;
+        }
     </style>
 </head>
 
 <body>
+    <div class="header">
+        <header>
+            <!-- <div class="logo">
+                <a href="#home"><img src="download.png" alt=""></a>
+                <span><a href="#home">Alpha</a></span>
+            </div> -->
+            <nav>
+                <a href="#Home"> Home</a>
+                <a target="_blank" href="course.html">Courses</a>
+                <a href="Contact.html" target="_blank">ContactUs </a>
+                <!-- <a target="_blank" href="about.html">About </a> -->
+                <a target="_blank" href="sign.html">Sign up</a>
+                <a target="_blank" href="login.html">Log In</a>
+            </nav>
+        </header>
+        <div class="spacing">
+
+        </div>
+    </div>
     <div class="about">
         <h1>ABOUT US</h1>
     </div>
@@ -158,6 +230,9 @@ margin-top: 20px;
     </div>
 
 
+    <footer style="text-align: center;">
+        <a href="index.html"> Back to Home</a>
+    </footer>
 </body>
 
 </html>

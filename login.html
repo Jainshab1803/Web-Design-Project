@@ -14,15 +14,57 @@
         }
 
         body {
-            min-height: 100vh;
+            /* min-height: 100vh; */
             background-color: #eee;
             display: flex;
             font-family: serif;
-
-
+            display: flex;
+            flex-direction: column;
         }
 
+
+        .header {
+            /* margin-top: 20px; */
+            max-width: 1300px;
+            /* border: solid black 2px; */
+            margin: 20px auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+            font-size: 20px;
+        }
+
+        nav a {
+            color: black;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+.spacing{
+    margin-top: 100px;
+}
+.account{
+    text-align: center;
+    margin-top: 8px;
+
+}
+.account a{
+    font-size: 18px;
+    font-weight: 600;
+}
         .form-container {
+            
             margin: auto;
             width: 300px;
             /* height: 400px; */
@@ -74,15 +116,39 @@
 
 
         }
+        footer{
+            margin-top: 100px;
+        }
+        footer a {
+            font-size: 42px;
+            font-weight: 600;
+        }
     </style>
 </head>
 
 <body>
-
+    <div class="header">
+        <header>
+            <!-- <div class="logo">
+                <a href="#home"><img src="download.png" alt=""></a>
+                <span><a href="#home">Alpha</a></span>
+            </div> -->
+            <nav>
+                <a href="#Home"> Home</a>
+                <a target="_blank" href="course.html">Courses</a>
+                <a href="Contact.html" target="_blank">ContactUs </a>
+                <a target="_blank" href="about.html">About </a>
+                <a target="_blank" href="sign.html">Sign up</a>
+                <!-- <a target="_blank" href="login.html">Log In</a> -->
+            </nav>
+        </header>
+    </div>
+<div class="spacing"></div>
     <div class="form-container">
-        <h2>Log-In</h2>
+        
         <form action="">
             <div class="form-group">
+                <h2>Log-In</h2>
                 <label for=" Username or Email"> Username or Email</label>
                 <br>
                 <input type="text" required>
@@ -93,8 +159,14 @@
                 <input type="password" required>
             </div>
             <input type="submit" class="button" value="Log-In">
+            <div class="account">
+            <a style="text-align: center;" href="sign.html">Don't have Account?</a>
+        </div>
         </form>
     </div>
+    <footer style="text-align: center;">
+        <a href="index.html"> Back to Home</a>
+    </footer>
 </body>
 
 </html>
